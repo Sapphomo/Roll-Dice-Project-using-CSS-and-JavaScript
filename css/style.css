@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #b33951;
+    background: #a23fd3;
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
     padding: 60px 0 40px;
     border-radius: 30px;
     background: #eeeeee;
-    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 8px 7px 20px rgba(255, 255, 255, 0.505);
 }
 
 /*
@@ -106,7 +106,7 @@ body {
 .front::after {
     width: 30px;
     height: 30px;
-    background: #f63330;
+    background: #461882;
     margin: -15px 0 0 -15px;
 }
 
@@ -151,16 +151,16 @@ body {
 
 .roll {
     cursor: pointer;
-    color: #b33951;
+    color: #399db3;
     margin-top: 60px;
     padding: 6px 12px;
     border-radius: 3px;
     font: 700 16px 'Montserrat';
-    border: 2px solid #b33951;
+    border: 2px solid #7039b3;
     transition: .4s;
 }
 
 .roll:hover {
     color: #fff;
-    background: #b33951;
+    background: #397cb3;
 }
